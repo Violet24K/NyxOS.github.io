@@ -191,6 +191,10 @@ p.copyright {
     line-height: 1.4;
 }
 
+.text-justify ul{
+    margin-left: 15%;
+}
+
 .features {
     padding: 70px 0;
 }
