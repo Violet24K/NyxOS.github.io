@@ -141,7 +141,17 @@
             <li>Read-only Filesystem</li>
             <li>Test cases that TAs enjoy, deprecated in Checkpoint 3</li>
             <li>Process Control Block</li>
-            <li>Basic Systemcall Support (a lot of work)</li>
+            <li>Basic Systemcall Support (a lot of work)
+                <ul>
+                    <li>execute()</li>
+                    <li>halt()</li>
+                    <li>open()</li>
+                    <li>close()</li>
+                    <li>read()</li>
+                    <li>write()</li>
+                    <li>Systemcall Assembly Linkage</li>
+                </ul>
+            </li>
             <li>Program Loader</li>
             <li>User-Level Code Support</li>
             <li>User-Level Argument Support</li>
@@ -179,11 +189,54 @@
                 <ul>
                     <li>Screen background generated using a random algorithm</li>
                     <li>Displaying three terminals at the same time</li>
-                    <li>ctrl + N: Send UDP packet to Google server with content “Hello”</li>
-                    <li>ctrl + P: piano mode on/off</li>
-                    <li>ctrl + Q: recursive halt</li>
-                    <li>Tab auto compliment</li>
-                    <li>upp/down arrow: command histroy</li>
+                    <li>Moving terminals around using mouse</li>
+                    <li>Terminal visibility</li>
+                    <li>Terminal button control (minimize and recursive halt)</li>
+                    <li>Gaussian blur on top bar</li>
+                    <li>Change resolution - Alt + F1/F2/F3</li>
+                    <li>Change font type - Alt + F4/F5/F6</li>
+                    <li>Very High resolution support</li>
+                    <li>Time on the upper right corner</li>
+                    <li>"Lucky Font"</li>
+                    <li>Window size is auto-adjusted according to font size</li>
+                </ul>
+            </li>
+
+            <li>Networking
+                <ul>
+                    <li>PCI controller</li>
+                    <li>PCI Brute-force Scanner</li>
+                    <li>RTL8139 driver</li>
+                    <li>host-byte order & network-byte order converting
+                        <ul>
+                            <li>htonl()</li>
+                            <li>htons()</li>
+                            <li>ntohl()</li>
+                            <li>ntohs()</li>
+                        </ul>
+                    </li>
+                    <li>Link Layer
+                        <ul>
+                            <li>Ethernet Protocol</li>
+                            <li>Address Resolution Protocol</li>
+                        </ul>
+                    </li>
+                    <li>Network Layer: IPv4</li>
+                        <ul>
+                            <li>Header Format</li>
+                            <li>Checksum calculation</li>
+                        </ul>
+                    <li>Transport Layer: UDP</li>
+                </ul>
+            </li>
+
+            <li>Sound
+                <ul>
+                    <li>Screen background generated using a random algorithm</li>
+                    <li>Displaying three terminals at the same time</li>
+                    <li>Moving terminals around using mouse</li>
+                    <li>Beep using PC speaker</li>
+                    <li>Keyboard Piano supporting from C4 to D<sup>#</sup>6/E<sup>b</sup>6</li>
                 </ul>
             </li>
         </ul>
